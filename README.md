@@ -50,12 +50,14 @@ GND     ─────────────────►  GND
 1. Open **File → Preferences**
 2. Paste into **Additional Boards Manager URLs**:
    ```
-   https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+   https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json
+   https://espressif.github.io/arduino-esp32/package_esp32_index.json
    ```
 
 ### Step 2 — Install Board Package
 1. **Tools → Board → Boards Manager**
 2. Search `esp32` → Install **esp32 by Espressif Systems**
+<img width="637" height="337" alt="image" src="https://github.com/user-attachments/assets/dcb85b59-10a2-425c-b029-601f6944309c" />
 
 ### Step 3 — Required Tool Settings
 
@@ -68,6 +70,7 @@ GND     ─────────────────►  GND
 | **Flash Mode** | QIO | Fastest flash access |
 | **Partition Scheme** | Default 4MB with spiffs | 1.2 MB APP + 1.5 MB SPIFFS |
 | **JTAG Adapter** | Disabled | Frees GPIO 11/12 if needed |
+<img width="609" height="519" alt="image" src="https://github.com/user-attachments/assets/76a9d7a2-171c-4e9c-b9c1-7ccb8dcd7ae4" />
 
 ---
 
